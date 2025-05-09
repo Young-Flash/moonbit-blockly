@@ -1,0 +1,20 @@
+{
+  "is-main": true,
+  "link": {
+    "wasm": {
+      "exports": [
+        "main_draw",
+        "main_new",
+        "main_step"
+      ]
+    },
+    "wasm-gc": {
+      "exports": [
+        "main_draw",
+        "main_new",
+        "main_step"
+      ]
+    }
+  }
+  
+}

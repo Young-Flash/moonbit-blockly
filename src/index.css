@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  max-width: 100vw;
+}
+
+pre,
+code {
+  overflow: auto;
+}
+
+#pageContainer {
+  display: flex;
+  width: 100%;
+  max-width: 100vw;
+  height: 100vh;
+}
+
+#blocklyDiv {
+  flex: 1;
+  height: 100%;
+  min-width: 400px;
+}
+
+#outputPane {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  flex: 0 0 300px;
+  overflow: auto;
+  margin: 1rem;
+}
+
+#generatedCode {
+  height: 50%;
+  background-color: rgb(247, 240, 228);
+}
+
+#output {
+  height: 50%;
+}
+
+#gamePane {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  flex: 0 0 500px;
+  padding: 1rem;
+  background-color: #f5f5f5;
+}
+
+#snakeCanvas {
+  border: 2px solid #333;
+  margin-bottom: 1rem;
+}
+
+.gameInformation {
+  text-align: center;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.gameInformation p {
+  margin: 0.5rem 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.apply-button {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.apply-button:hover {
+  background-color: #45a049;
+}
+
+.apply-button:active {
+  background-color: #3d8b40;
+}
